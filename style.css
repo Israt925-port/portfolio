@@ -1,0 +1,440 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+
+/* Start Header CSS */
+.logo_and_navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 100%;
+    height: 100px;
+    background-color: #faebd7;
+    padding: 80px 200px;
+}
+.logo_and_navbar .logo a{
+    color: #000000;
+    font-size: 40px;
+    font-weight: 800;
+}
+.logo_and_navbar .logo span{
+    color: #ff4500;
+}
+.navbar nav ul{
+    display: flex;
+}
+.navbar nav ul li{
+    list-style: none;
+    padding: 15px 20px;
+}
+.navbar nav ul li a{
+    color: #838383;
+    font-size: 18px;
+}
+.navbar nav ul li a:hover{
+    color: #ff4500;
+    transition: 0.4s;
+}
+.navbar nav ul li .hire-me-button{
+    background-color: #ff4500;
+    padding: 15px 30px;
+    font-weight: 500;
+    color: #ffffff;
+    border-radius: 5px;
+}
+.navbar nav ul li .hire-me-button:hover{
+    background-color: #faebd7;
+    color: #ff4500;
+    border: 1px solid #ff4500;
+    transition: 0.4s;
+}
+/* End Header CSS */
+
+/* Start Section 1 CSS */
+.section1{
+    display: flex;
+    align-items: flex-end;
+    padding: 0 0 0 200px;
+    background-color: #faebd7;
+}
+.section1 .section1_content{
+    width: 45%;
+}
+.section1 .section1_img{
+    width: 55%;
+}
+.section1 .section1_content{
+    margin-bottom: 175px;
+}
+.section1 .section1_content span{
+    font-size: 40px;
+    font-weight: 500;
+    color: #545454;
+    margin-bottom: 20px;
+}
+.section1 .section1_content h1{
+    font-size: 60px;
+    font-weight: 600;
+    color: #000000;
+    margin-bottom: 20px;
+}
+.section1 .section1_content p{
+    color: #838383;
+    margin-bottom: 20px;
+    text-align: left;
+}
+.section1 .section1_content .download_button{
+    background-color: #ff4500;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #ffffff;
+    border-radius: 5px;
+    border: none;
+    margin-right: 20px;
+}
+.section1 .section1_content .download_button i{
+    margin-right: 10px;
+}
+.section1 .section1_content .download_button:hover{
+    background-color: #faebd7;
+    color: #ff4500;
+    border: 1px solid #ff4500;
+    transition: 0.4s;
+}
+.section1 .section1_content .contact_button{
+    background-color: #faebd7;
+    border: 1px solid #ff4500;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #ff4500;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+.section1 .section1_content .contact_button i{
+    margin-right: 20px;
+}
+.section1 .section1_content .contact_button:hover{
+    background-color: #ff4500;
+    color: #faebd7;
+    border: 1px solid #faebd7;
+    transition: 0.4s;
+}
+.section1 .section1_img{
+    /* background-image: url(./img/header_bg.png); */
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: bottom;
+    
+}
+.section1 .section1_img img{
+    height: 350px;
+    width: 400px;
+    
+    margin-left: 200px;
+    margin-bottom: -5px;
+    /* max-width: 100%; */
+
+}
+.developer{
+    position: absolute;    
+    left: 54px;
+    top: 35px;
+    z-index: 1;
+}
+.developer img{
+    height: 634px;
+}
+/* End Section 1 CSS */
+
+/* Start Section 2 CSS */
+.section2 .about_me{
+    background-color: #faebd7;
+    margin: 110px 220px;
+    padding: 100px;
+    border-radius: 20px;
+}
+.section2 .about_me h2, p{
+    text-align: center;
+    padding-bottom: 30px;
+}
+.section2 .about_me .about_info{
+    display: flex;
+    justify-content: center;
+}
+.section2 .about_me .about_info .name, .email, .dob, .location{
+    text-align: center;
+    margin-right: 40px;
+}
+/* End Section 2 CSS */
+
+/* Start Section 3 CSS */
+.section3 .service{
+    margin: 110px 220px;
+}
+.section3 .service h2{
+    text-align: center;
+    padding-bottom: 30px;
+}
+.section3 .service > p{
+    padding: 0 100px 30px 100px;
+}
+.section3 .service .service_card{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.section3 .service .service_card .js, .react, .node, .mongodb{
+    width: 300px;
+    padding: 20px;
+    box-shadow:0 5px 10px rgba(0,0,0,.1);
+}
+.section3 .service .service_card .js img, .react img, .node img, .mongodb img{
+    margin-bottom: 20px;
+}
+.section3 .service .service_card .js p, .react p, .node p, .mongodb p{
+    text-align: left;
+    margin-top: 20px;
+}
+/* End Section 3 CSS */
+
+/* Start Section 4 CSS */
+.section4{
+    padding: 0 220px;
+}
+.section4 h2{
+    text-align: center;
+    margin-bottom: 60px;
+}
+.section4 .resume{
+    display: flex;
+    gap: 40px;
+}
+.section4 .resume .resume_edu h3, .resume_exp h3{
+    margin-top: 20px;
+}
+.section4 .resume .resume_edu h4, .resume_exp h4{
+    margin-top: 5px;
+}
+.section4 .resume .resume_edu p, .resume_exp p{
+    text-align: left;
+    margin: 20px 0;
+}
+.section4 .section4_button{
+    text-align: center;
+    margin-top: 30px;
+}
+.section4 .download_button{
+    background-color: #ff4500;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #ffffff;
+    border-radius: 5px;
+    border: none;
+    margin-right: 20px;
+}
+.section4 .download_button i{
+    margin-right: 10px;
+}
+.section4 .download_button:hover{
+    background-color: #ffffff;
+    color: #ff4500;
+    border: 1px solid #ff4500;
+    transition: 0.4s;
+}
+/* End Section 4 CSS */
+
+/* Start Section 5 CSS */
+.section5{
+    padding: 110px 160px;
+}
+.section5 h2{
+    text-align: center;
+    margin-bottom: 60px;
+}
+.section5 .blog_cards{
+    display: flex;
+    gap: 40px;
+}
+.section5 .blog_cards .blog_card{
+    background-color: #faebd7;
+    border-radius: 15px;
+    text-align: center;
+    overflow: hidden;
+}
+.section5 .blog_cards .blog_card:hover{
+    transition: all 500ms ease-in-out;
+    transform: scale(1.1);
+}
+.section5 .blog_cards .blog_card .blog_card_img img{
+    border-radius: 15px 15px 0 0;
+}
+.section5 .blog_cards .blog_card .blog_card_content .span_week1{
+    font-size: 14px;
+    color: #00504c;
+}
+.section5 .blog_cards .blog_card .blog_card_content .span_week2{
+    font-size: 14px;
+    color: #6d5824;
+}
+.section5 .blog_cards .blog_card .blog_card_content .span_week3{
+    font-size: 14px;
+    color: #597e7d;
+}
+.section5 .blog_cards .blog_card .blog_card_content h3{
+    font-size: 22px;
+    margin: 10px 0;
+}
+.section5 .blog_cards .blog_card .blog_card_footer1, .blog_card_footer2, .blog_card_footer3{
+    display: flex;
+    justify-content: center;
+}
+.section5 .blog_cards .blog_card .blog_card_footer1{
+    background-color: #00504c;
+    color: #ffffff;
+}
+.section5 .blog_cards .blog_card .blog_card_footer2{
+    background-color: #6d5824;
+    color: #ffffff;
+}
+.section5 .blog_cards .blog_card .blog_card_footer3{
+    background-color: #597e7d;
+    color: #ffffff;
+}
+.section5 .blog_cards .blog_card .blog_card_footer1 .span1, 
+.section5 .blog_cards .blog_card .blog_card_footer2 .span1, 
+.section5 .blog_cards .blog_card .blog_card_footer3 .span1{
+    padding: 20px;
+}
+.section5 .blog_cards .blog_card .blog_card_footer1 .span2, 
+.section5 .blog_cards .blog_card .blog_card_footer2 .span2, 
+.section5 .blog_cards .blog_card .blog_card_footer3 .span2{
+    box-shadow:0 5px 10px rgba(0,0,0,.1);
+    padding: 20px 35px;
+}
+.section5 .blog_cards .blog_card .blog_card_footer1 .span3, 
+.section5 .blog_cards .blog_card .blog_card_footer2 .span3, 
+.section5 .blog_cards .blog_card .blog_card_footer3 .span3{
+    padding: 20px;
+}
+/* End Section 5 CSS */
+
+/* Start Section 6 CSS */
+.section6{
+    background-color: #faebd7;
+    padding: 110px 220px;
+}
+.section6 .connect_and_message{
+    display: flex;
+    gap: 50px;
+}
+.section6 .connect_and_message .connect h3,
+.section6 .connect_and_message .message h3{
+    font-size: 25px;
+}
+.section6 .connect_and_message .connect p{
+    font-size: 14px;
+    text-align: left;
+    margin-top: 20px;
+}
+.section6 .connect_and_message .connect .social_icon img{
+    margin-right: 15px;
+}
+.section6 .connect_and_message .message form input{
+    display: block;
+    margin: 20px 20px 20px 0;
+    padding: 15px;
+    width: 350px;
+    border: none;
+    border-radius: 5px;
+}
+.section6 .connect_and_message .message form textarea{
+    display: block;
+    margin: 0px 20px 30px 0;
+    padding: 15px;
+    width: 350px;
+    height: 150px;
+    border: none;
+    border-radius: 5px;
+}
+.section6 .connect_and_message .message form a{
+    background-color: #ff4500;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #ffffff;
+    border-radius: 5px;
+    border: none;
+}
+/* End Section 6 CSS */
+
+/* Start Footer Section CSS */
+footer{
+    background-color: #ff4500;
+    padding: 80px 220px 0;
+    line-height: 35px;
+    text-align: left;
+}
+footer .footer-box{
+    display: flex;
+    margin-bottom: 40px;
+}
+footer .footer-box .footer-col{
+    width: 33.33%;
+}
+footer .footer-box .footer-col .footer-col-title{
+    font-size: 24px;
+    font-weight: 500;
+    color: #ffffff;
+}
+footer .footer-box .footer-col ul{
+    margin-top: 10px;
+}
+footer .footer-box .footer-col ul li{
+    list-style: none;
+    color: #ffffff;
+}
+footer .footer-box .footer-col ul li a{
+    color: #ffffff;
+}
+footer .footer-box .footer-col input{
+    padding: 15px;
+    width: 240px;
+    border: none;
+    border-radius: 6px;
+    margin-top: 10px;
+}
+footer .footer-box .footer-col .submit_button{
+    background-color: #ff4500;
+    border: 1px solid #faebd7;
+    padding: 12px 20px;
+    color: #faebd7;
+    border-radius: 6px;
+    margin-left: 10px;
+}
+footer .copyright{
+    background-color: #ff4500;
+    border-top: 1px solid #ffffff;
+    padding: 20px;
+    text-align: center;
+}
+footer .copyright span{
+    font-size: 18px;
+    color: #ffffff;
+}
+/* End Footer Section CSS */
