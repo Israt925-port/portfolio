@@ -141,12 +141,15 @@ a{
     background-position: bottom;
     
 }
+.section1_img {
+    border-radius: 100%;
+}
 .section1 .section1_img img{
     height: 350px;
-    width: 400px;
-    
+    width: 400px;    
     margin-left: 200px;
-    margin-bottom: -5px;
+    margin-bottom: 100px; 
+    border-radius: 90%;
     /* max-width: 100%; */
 
 }
